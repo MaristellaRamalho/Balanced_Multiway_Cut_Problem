@@ -1,0 +1,8 @@
+Instâncias de 160, 320 e 640 nós (N), denominadas instâncias basicas.
+O número de arestas (M) varia em 2N, 4N e 8N
+O número de terminais (k) varia em N/16, N/8 e N/4
+
+No nome de cadas arquivo de instâncias é seguida a seguinte denominação:
+N[número de nós]_M[fator do número de arestas]_k[número de terminais]_[número da instância no grupo].gr
+
+para cada combinação de N, M e k, foram geradas 5 instâncias
