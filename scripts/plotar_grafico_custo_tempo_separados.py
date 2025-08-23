@@ -49,8 +49,8 @@ MAPEAMENTO_LEGENDA = {
     'maxrange': 'Maxrange',
     'quadzera': 'Quadzera',
     'quadrange': 'Quadrange',
-    'quadrangetotal': 'QuadrangeTotal',
-    'sem_penalidade': 'Sem Penalidade'
+    'quadrangetotal': 'Quadrangetotal',
+    'sem_penalidade': 'Sem penalidade'
 }
 
 # --- FIM DAS CONFIGURAÇÕES ---
@@ -126,12 +126,12 @@ def gerar_graficos_evolucao(caminho_arquivo_excel, show_plot=False):
     ordem_penalidades = ['Sem Penalidade', 'Maxzera', 'Maxrange', 'Quadzera', 'Quadrange', 'QuadrangeTotal']
     #Cores de cada penalidade
     color_map = {
-        'Zera':           '#1e76b3',
-        'Range':          '#ff7e0d',
+        'Maxzera':        '#1e76b3',
+        'Maxrange':       '#ff7e0d',
         'Quadzera':       '#2b9f2b',
         'Quadrange':      '#da4243',
-        'QuadrangeTotal': '#9366bc',
-        'Sem Penalidade': '#8b564a'
+        'Quadrangetotal': '#9366bc',
+        'Sem penalidade': '#8b564a'
     }
 
     fig, axes = plt.subplots(
