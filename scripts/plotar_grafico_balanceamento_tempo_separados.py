@@ -141,8 +141,8 @@ def processar_e_plotar_graficos_com_devpad(base_path, b_val, show_plot=False):
 
     # Cria um mapa de cores fixo para garantir consistência
     color_map = {
-    'Zera':           '#1e76b3',  # Azul 
-    'Range':          '#ff7e0d',  # Laranja 
+    'Maxzera':        '#1e76b3',  # Azul 
+    'Maxrange':       '#ff7e0d',  # Laranja 
     'Quadzera':       '#2b9f2b',  # Verde 
     'Quadrange':      '#da4243',  # Vermelho 
     'Quadrangetotal': '#9366bc',  # Roxo
